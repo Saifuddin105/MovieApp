@@ -1,0 +1,32 @@
+{
+  "name": "what-should-i-watch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "What Should I Watch Tonight? — Full-stack movie discovery platform",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:backend": "npm --prefix backend run start:dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "npm --prefix backend run test",
+    "prisma:generate": "npm --prefix backend run prisma:generate",
+    "prisma:migrate": "npm --prefix backend run prisma:migrate"
+  },
+  "keywords": [
+    "movies",
+    "tmdb",
+    "react",
+    "vite",
+    "nestjs",
+    "prisma",
+    "neon",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
